@@ -1,6 +1,6 @@
 #!/bin/bash -eux
 
-CONTAINERS="$(docker ps -q)"
+CONTAINERS="$(docker ps -a -q)"
 if [ -n "$CONTAINERS" ]; then
    echo "Stopping and removing Docker containers.."
    docker stop $(docker ps -a -q)
