@@ -1,2 +1,2 @@
-My dotfiles macOS. 
+My dotfiles for macOS. 
 Using iTerm2.
